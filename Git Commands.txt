@@ -1,0 +1,60 @@
+Push new code from Local repo(Local directory) to Git hub repo(remote/global)
+
+
+
+1.Git repo in Git hub
+======================
+login to git hub create a new git repo
+
+
+2.Go to local system folder Using Git dash
+===========================================
+$ cd /D/'Big data'/Pyspark/code/
+
+
+3. initialize git in local  directory 
+=======================================
+$ git init
+
+
+4.add files staging area
+==========================
+$ git add 'Git Commands.docx'
+
+
+5.check status of files
+=========================
+$ git status
+
+
+6. if your updating existing repo
+=================================
+$ git add Pyspark_basics.ipynb
+
+
+7.move files from staging area to local repo
+========================================
+$ git commit -m "first commit"
+
+
+8.add remote repo with local repo
+================================
+$ git remote add origin https://github.com/SandeepNookala/Git
+
+
+9. check linked repo
+======================
+$ git remote -v
+
+
+10. authorization git dash and git hub 
+========================================
+$ git config --global user.email “nookala382@gmail.com”
+
+$ git config --global user.name "Sandeep"
+
+
+11. push master code to git repo 
+=================================
+$ git push -f origin master
+
