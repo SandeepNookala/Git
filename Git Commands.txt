@@ -21,40 +21,51 @@ $ git init
 ==========================
 $ git add 'Git Commands.docx'
 
+5. git add:
+=============
+git add -u  (updating existing files to staging and can also used to rename files)
+git add *   (add new files to staging
 
-5.check status of files
+6.check status of files
 =========================
 $ git status
 
 
-6. if your updating existing repo
+7. if your updating existing repo
 =================================
 $ git add Pyspark_basics.ipynb
 
 
-7.move files from staging area to local repo
+8.move files from staging area to local repo
 ========================================
 $ git commit -m "first commit"
 
 
-8.add remote repo with local repo
+9.add remote repo with local repo
 ================================
 $ git remote add origin https://github.com/SandeepNookala/Git
 
 
-9. check linked repo
+10. check linked repo
 ======================
 $ git remote -v
 
 
-10. authorization git dash and git hub 
+11. authorization git dash and git hub 
 ========================================
 $ git config --global user.email “nookala382@gmail.com”
 
 $ git config --global user.name "Sandeep"
 
 
-11. push master code to git repo 
+12. push master code to git repo 
 =================================
 $ git push -f origin master
+
+
+13. Unable to create 'D:/Big_Data/Sql/code/.git/index.lock': File exists:
+========================================================================
+
+$ rm -f ./.git/index.lock
+
 
