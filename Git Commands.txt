@@ -12,60 +12,136 @@ login to git hub create a new git repo
 $ cd /D/'Big data'/Pyspark/code/
 
 
-3. initialize git in local  directory 
-=======================================
+3.git init :
+============
+initialize new git in local  directory 
+
 $ git init
 
 
-4.add files staging area
-==========================
-$ git add 'Git Commands.docx'
+4.git diff:
+=========
+Displays the difference between files in two commits or between a commit and your current repository
+
+$ git diff
+
 
 5. git add:
 =============
-git add -u  (updating existing files to staging and can also used to rename files)
-git add *   (add new files to staging
+add files staging area
 
-6.check status of files
+$ git add -u             #updating existing files to staging and can also used to rename files
+
+$ git add .              #add new files to staging
+
+$ git add 'Git Commands.docx'
+
+
+6.git status :
 =========================
+current state of the repository.
+
 $ git status
 
 
-7. if your updating existing repo
+7. git config :
 =================================
-$ git add Pyspark_basics.ipynb
+This specifies what email id and username will be used from a local repository.
+
+$ git config
 
 
-8.move files from staging area to local repo
+8.git branch :
+=================================
+The git branch command is used to determine what branch the local repository is on.
+
+$ git branch
+
+$ git branch <branch_name>         # Create a new branch
+    
+$ git branch -a                    # List all remote or local branches
+  
+$ git branch -d <branch_name>      # Delete a branch
+
+
+9.git checkout:
+=================================
+The git checkout command is used to switch branches, 
+whenever the work is to be started on a different branch
+
+$  git checkout <branch_name>         # Checkout an existing branch
+
+$  git checkout -b <new_branch>       # Checkout and create a new branch with that name
+
+
+10.git merge:
+================================
+The git merge command is used to integrate the branches together. 
+The command combines the changes from one branch to another branch. 
+
+$ git merge <branch_name>
+
+
+11.move files from staging area to local repo
 ========================================
 $ git commit -m "first commit"
 
 
-9.add remote repo with local repo
-================================
-$ git remote add origin https://github.com/SandeepNookala/Git
+12.git log:
+==========
+It is used to view the entire commit history
+
+$ git log
 
 
-10. check linked repo
+13.git remote :
+========================================
+The git remote command is used to create, view, and delete connections to other repositories
+
+$ git remote add origin <address>
+$ git remote add origin <address>
+
+
+14.git clone:
+========================================
+The git clone command is used to create a local working copy of an existing remote repository.
+
+$ git clone <remote_URL>
+
+
+15.git pull:
+==============
+The git pull command is used to fetch and merge changes from the remote repository to the local repository.
+
+$ git pull <branch_name> <remote URL>
+
+
+16.git push:
+============
+The command git push is used to transfer the commits or pushing the content from the local repository to the remote repository.
+
+$ git push -u origin master
+
+
+17. check linked repo
 ======================
 $ git remote -v
 
 
-11. authorization git dash and git hub 
+18. authorization git dash and git hub 
 ========================================
 $ git config --global user.email “nookala382@gmail.com”
 
 $ git config --global user.name "Sandeep"
 
 
-12. push master code to git repo 
+19. push master code to git repo 
 =================================
 $ git push -f origin master
 
 
-13. Unable to create 'D:/Big_Data/Sql/code/.git/index.lock': File exists:
+20. Unable to create 'D:/Big_Data/Sql/code/.git/index.lock': File exists:
 ========================================================================
-
 $ rm -f ./.git/index.lock
 
 
