@@ -1,5 +1,7 @@
-Push new code from Local repo(Local directory) to Git hub repo(remote/global)
 
+
+
+Push new code from Local repo(Local directory) to Git hub repo(remote/global)
 
 
 1.Git repo in Git hub
@@ -34,7 +36,7 @@ $ git add -u             #updating existing files to staging and can also used t
 
 $ git add .              #add new files to staging
 
-$ git add 'Git Commands.docx'
+$ git add 'Git Commands.docx'  #add individual files to staging
 
 
 6.git status :
@@ -98,8 +100,8 @@ $ git log
 ========================================
 The git remote command is used to create, view, and delete connections to other repositories
 
-$ git remote add origin <address>
-$ git remote add origin <address>
+
+$ git remote add origin https://github.com/SandeepNookala/Git
 
 
 14.git clone:
@@ -131,9 +133,11 @@ $ git remote -v
 18. authorization git dash and git hub 
 ========================================
 $ git config --global user.email “nookala382@gmail.com”
-
 $ git config --global user.name "Sandeep"
 
+
+$ git config --global user.email “satishnookala561@gmail.com”
+$ git config --global user.name "SatishNookala"
 
 19. push master code to git repo 
 =================================
