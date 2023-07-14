@@ -9,9 +9,11 @@ Push new code from Local repo(Local directory) to Git hub repo(remote/global)
 login to git hub create a new git repo
 
 
+
 2.Go to local system folder Using Git dash
 ===========================================
 $ cd /D/'Big data'/Pyspark/code/
+
 
 
 3.git init :
@@ -21,11 +23,13 @@ initialize new git in local  directory
 $ git init
 
 
+
 4.git diff:
 =========
 Displays the difference between files in two commits or between a commit and your current repository
 
 $ git diff
+
 
 
 5. git add:
@@ -39,6 +43,7 @@ $ git add .              #add new files to staging
 $ git add 'Git Commands.docx'  #add individual files to staging
 
 
+
 6.git status :
 =========================
 current state of the repository.
@@ -46,11 +51,13 @@ current state of the repository.
 $ git status
 
 
+
 7. git config :
 =================================
 This specifies what email id and username will be used from a local repository.
 
 $ git config
+
 
 
 8.git branch :
@@ -63,7 +70,7 @@ $ git branch <branch_name>         # Create a new branch
     
 $ git branch -a                    # List all remote or local branches
   
-$ git branch -d <branch_name>      # Delete a branch
+$ git branch -D <branch_name>      # Delete a branch
 
 
 9.git checkout:
