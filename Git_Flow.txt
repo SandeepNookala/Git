@@ -169,3 +169,12 @@ $ git log
 Displays the difference between files in two commits or between a commit and your current repository
 
 $ git diff
+
+23.merge conflict:
+==================
+manual intervention needed .should take decision based on situation
+1. Accept the incoming changes
+or
+2. push my changes
+or
+3.keep both changes
