@@ -107,7 +107,9 @@ git checkout gitflow2
 =====================
 git checkout master
 
-
+++++++
+merge:
+++++++
 
 15.git merge:
 =============
