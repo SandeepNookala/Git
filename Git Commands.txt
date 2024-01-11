@@ -1,24 +1,66 @@
 
++++++++++++++++
+Git and Git Hub
++++++++++++++++
+
+git - version control system (VCS) 
+github - remote repository hosting service 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Push new code from Local repo(Local directory) to Git hub repo(remote/global)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-1.Git repo in Git hub
-======================
-login to git hub create a new git repo
-
-
-
-2.Go to local system folder Using Git dash
-===========================================
-$ cd /D/'Big data'/Pyspark/code/
+1.create directory in  local system and switch to directory
+===========================================================
+$ cd /D/Big_data/git/code/
 
 
 
-3.git init :
-============
-initialize new git in local  directory 
+2.initialize new git in local directory :
+==========================================
+git init 
 
-$ git init
+
+
+3. adding file from working directory to stagging area:
+======================================================
+git add file.txt 
+
+
+
+4.check status:
+===============
+git status
+
+
+
+5. commit changes to local repository:
+=====================================
+git commit -m 'first commit'
+
+
+
+6.link remote repository with local repository:
+===============================================
+git remote add origin https://github.com/SandeepNookala/Git.git
+
+
+
+7. push code from local to remote:
+==================================
+git push -u origin master
+
+
+++++++++++++++++++
+create new branch
+++++++++++++++++++
+
+
+8. create branch:
+=================
+git checkout -b git_flow
+
 
 
 
