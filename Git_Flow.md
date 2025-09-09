@@ -137,3 +137,8 @@ or
 2. push my changes
 or
 3.keep both changes
+
+
+#13.Synchronizing a local Git repository with a remote one:
+*******************************************************
+git fetch --prune
